@@ -22,6 +22,10 @@ public class Calculator {
         int result = add(10, 5);
         result = times(result, 2);
         result = dif(result, div(8, 4));
+
+        int result = dif(11, 5);
+        result = div(result, 2);
+        result = times(result, add(3, 4));
         return result;
     }
 }
