@@ -35,7 +35,17 @@ class CalculatorTest {
     }
 
     @Test
-    void solver() {
+    void solver1() {
         assertEquals(8, calculator.solver());
+    }
+  
+    @Test
+    void solver2() {
+        assertEquals(28, calculator.solver());
+    }
+  
+    @Test
+    void solver3() {
+        assertEquals(21, calculator.solver());
     }
 }
